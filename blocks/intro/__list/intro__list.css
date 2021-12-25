@@ -1,25 +1,25 @@
 .intro__list {
-    color: white;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 18px;
-    margin: 0;
-    max-width: 690px;
+  color: white;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+  margin: 0;
+  max-width: 690px;
 }
 
 .intro__list:last-of-type {
-    margin-bottom: 92px;
+  margin-bottom: 92px;
 }
 
 @media screen and (max-width: 768px) {
-    .intro__list:last-of-type {
-        margin-bottom: 88px;
-    }
+  .intro__list:last-of-type {
+    margin-bottom: 88px;
+  }
 }
 
 @media screen and (max-width: 420px) {
-    .intro__list:last-of-type {
-        margin-bottom: 64px;
-    }
+  .intro__list:last-of-type {
+    margin-bottom: 64px;
+  }
 }
