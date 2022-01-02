@@ -9,19 +9,21 @@
 <body>
   <div class="page">
     <header class="header">
-      <img class="header__logo" alt="Лопотип." src="images/header_logo.png">
-        <div class="header__links">
-          <a class="header__link header__link_selected" href="#">Ru</a>
-          <a class="header__link" href="#">En</a>
-        </div>
+      <img class="header__logo" alt="Лопотип." src="images/header_logo.svg">
+        <ul class="header__links">
+          <li><a class="header__link header__link_selected" href="#">Ru</a></li>
+          <li><a class="header__link" href="#">En</a></li>
+        </ul>
     </header>
 
     <main class="content">
       <section class="lead">
         <h1 class="lead__title">Путешествия по России</h1>
         <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-        <img class="lead__image" alt="Схема маршрута." src="./images/kalegin-michail-179870-unsplash.jpg">
-        <p class="lead__caption">ваша полка — верхняя</p>
+        <figure class="lead__figure">
+          <img class="lead__image" alt="Схема маршрута." src="./images/kalegin-michail-179870-unsplash.jpg">
+          <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
+        </figure>
       </section>
 
       <section class="intro">
@@ -32,11 +34,13 @@
           на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла
           в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали 
           некоторые интересные места, достойные вашего отпуска.</p>
-        <p class="intro__list">Часовых поясов <span class="intro__list-digits">11</span></p>
-        <p class="intro__list">Объектов природного наследия ЮНЕСКО <span class="intro__list-digits">12</span></p>
-        <p class="intro__list">Объектов культурного наследия ЮНЕСКО <span class="intro__list-digits">16</span></p>
-        <p class="intro__list">Природных заповедников <span class="intro__list-digits">105</span></p>
-        <p class="intro__list">Аэропортов <span class="intro__list-digits">241</span></p>          
+        <ul class="intro__list">
+          <li class="intro__list-item">Часовых поясов <span class="intro__list-digits">11</span></li>
+          <li class="intro__list-item">Объектов природного наследия ЮНЕСКО <span class="intro__list-digits">12</span></li>
+          <Li class="intro__list-item">Объектов культурного наследия ЮНЕСКО <span class="intro__list-digits">16</span></Li>
+          <li class="intro__list-item">Природных заповедников <span class="intro__list-digits">105</span></li>
+          <li class="intro__list-item">Аэропортов <span class="intro__list-digits">241</span></li>
+        </ul>
       </section>
 
       <section class="photo-grid">
@@ -142,11 +146,15 @@
     </main>
 
     <footer class="footer">
-      <a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a>
-      <a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a>
-      <a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a>
-      <a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
-      <a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
+      <nav>
+        <ul class=footer__links>
+          <li class="footer__link-item"><a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a></li>
+          <li class="footer__link-item"><a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a></li>
+          <li class="footer__link-item"><a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a></li>
+          <li class="footer__link-item"><a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a></li>
+          <li class="footer__link-item"><a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a></li>
+        </ul>
+      </nav>
       <p class="footer__copyright">&copy; 2021 Андрей Кузнецов</p>
     </footer>
   </div>

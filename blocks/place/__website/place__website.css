@@ -5,9 +5,9 @@
   font-weight: normal;
   font-size: 18px;
   line-height: 22px;
+  transition: opacity 0.5s;
 }
 
 .place__website:hover {
   opacity: 0.8;
-  transition: opacity 0.5s;
 }
